@@ -1,0 +1,24 @@
+{
+  "name": "jianshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:index": "parcel ./src/index.html",
+    "dev:ui": "parcel ./src/ui.html",
+    "build:ui": "parcel build ./src/ui.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.7.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
