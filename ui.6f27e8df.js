@@ -16,4 +16,4 @@ var e=(0,eval)("this"),t=require("process");!function(e,t){"use strict";"object"
 },{"jquery":27}],4:[function(require,module,exports) {
 "use strict";require("../css/ui.scss"),require("../fonts/iconfont.css"),require("./lib/tabs.js"),require("./lib/dropdown.js");var o=require("./lib/dialog.js");myModal.onclick=function(){var e=new o.Dialog({title:"加入黑名单",content:"<p>确认将该用户加入黑名单吗？在你黑名单中的用户无法在你文章下评论，无法在其它评论中提到你，无法给你发送简信，自动从你的粉丝列表移除且无法再关注你。</p>",className:"userDialog",static:!1,buttons:[{text:"确定",action:function(){setTimeout(function(){console.log("点击确定！"),e.close()})}},{text:"取消",action:function(){console.log("点击取消！"),e.close()}}]});e.open()};
 },{"../css/ui.scss":6,"../fonts/iconfont.css":6,"./lib/tabs.js":8,"./lib/dropdown.js":9,"./lib/dialog.js":10}]},{},[4])
-//# sourceMappingURL=%27%27/ui.787b603a.map
+//# sourceMappingURL=%27./%27/ui.787b603a.map
