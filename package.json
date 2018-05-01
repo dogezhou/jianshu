@@ -6,7 +6,7 @@
   "scripts": {
     "dev:index": "parcel ./src/index.html",
     "dev:ui": "parcel ./src/ui.html",
-    "build:ui": "parcel build ./src/ui.html"
+    "build": "parcel build --public-url . ./src/ui.html && parcel build --public-url . ./src/index.html"
   },
   "keywords": [],
   "author": "",
