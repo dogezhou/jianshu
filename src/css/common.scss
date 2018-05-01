@@ -1,0 +1,14 @@
+.layout {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-size: 13px/1.5 Arial;
+}
