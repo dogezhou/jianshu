@@ -1,4 +1,5 @@
 import '../css/ui.scss'
+import '../fonts/iconfont.css'
 
 // js
 import './lib/tabs.js'
